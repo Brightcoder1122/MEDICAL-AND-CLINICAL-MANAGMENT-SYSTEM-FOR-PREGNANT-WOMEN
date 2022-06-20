@@ -1,0 +1,30 @@
+.body{
+    background-image:url('../img/bg.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    position: relative;
+    height:30rem;
+}
+.border {
+    border: 1px solid black;
+    background-color: rgba(2, 155, 155, 0.301);
+    vertical-align: middle;
+    margin-top: 4rem;
+    box-shadow:3px 3px 19px #888888;
+    opacity: inherit;
+}
+#signin:hover::after
+{
+    cursor: auto;
+    color: aqua;
+    
+}
+
+.nav-hover:hover {
+    background-color: black;     
+}
+
+.appoint-background {
+    background-color: rgb(6, 109, 194);
+}
